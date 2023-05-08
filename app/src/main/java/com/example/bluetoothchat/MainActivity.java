@@ -14,14 +14,13 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Info", "SignUp Button pressed\n");
 
         Intent intent = new Intent(MainActivity.this, SignUpActivity.class);
-      //  intent.putExtra("message", "Hello, Second Activity!");
         startActivity(intent);
     }
 
    public void login(View view) {
         Log.i("Info", "Login Button pressed\n");
+
         Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-      //  intent.putExtra("message", "Hello, Second Activity!");
         startActivity(intent);
     }
 
